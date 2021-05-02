@@ -23,9 +23,11 @@ public class Main {
 
 		CampaignManager campaignManager = new CampaignManager();
 		campaignManager.addCampaign(campaign, adminUser);
+		
 
+		//new MernisServiceAdapter() ; mernis doğrulamasıda eklendi !
 		CustomerManager customerManager = new CustomerManager(new CustomerCheckManager(), new DatabaseLogger());
-
+													
 		customerManager.register(customer);
 		customerManager.removeUser(customer);
 		customerManager.uptadeUser(customer);
