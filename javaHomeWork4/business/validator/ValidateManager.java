@@ -15,10 +15,10 @@ public class ValidateManager implements ValidateService{
         if (nameAndLastNameCheck(user)&&passwordCheck(user)&&mailCheck(user,user.getMail())){
             users.add(user);
             return true;
-        }else{
+        }
             return false;
 
-        }
+        
 
 
 
