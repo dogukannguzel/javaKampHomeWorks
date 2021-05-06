@@ -8,7 +8,7 @@ public class User implements Entity {
     String lastName;
     String mail;
     String password;
-
+    boolean verification;
 
 
     public User(){}
@@ -71,7 +71,7 @@ public class User implements Entity {
         this.verification = verification;
     }
 
-    boolean verification;
+    
 
 
 
