@@ -3,12 +3,12 @@ package javaProject.entities.concretes;
 import javaProject.entities.abstracts.Entity;
 
 public class User implements Entity {
-    int id;
-    String firstName;
-    String lastName;
-    String mail;
-    String password;
-    boolean verification;
+   private int id;
+   private String firstName;
+   private String lastName;
+   private  String mail;
+   private String password;
+   private boolean verification;
 
 
     public User(){}
